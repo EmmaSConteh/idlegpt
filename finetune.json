@@ -1,0 +1,101 @@
+{"prompt": "def multiply(a, b): return", "completion": "a * b\n\ndef square(n): return multiply(n, n)\n\ndef calculate_rectangle_area(width, height): return multiply(width, height)"}
+{"prompt": "def get_square_root(n): return", "completion": "math.sqrt(n)\n\ndef get_square_root(n): return math.sqrt(n)\n\ndef get_square_root(n): return math.sqrt(n)"}
+{"prompt": "def find_max(nums):\n    max_num = nums[0]\n     for num in nums:\n          if num > max_num:", "completion": "     max_num = num\n     return max_num"}
+{"prompt": "", "completion": "def hello():\n    print('Hello, world!')\n\nhello()"}
+{"prompt": "def calculate_sum(a, b):", "completion": " return a + b"}
+{"prompt": "for i in range(5):", "completion": " print(i)"}
+{"prompt": "class Circle:", "completion": " def init(self, radius): self.radius = radius"}
+{"prompt": "import pandas as pd\n\n# Read CSV file", "completion": "data = pd.read_csv('data.csv')"}
+{"prompt": "def factorial(n):\n if n == 0:", "completion": " return 1\n else:\n return n * factorial(n-1)"}
+{"prompt": "try:\n num = int(input('Enter a number: '))", "completion": " print('Square:', num ** 2)\nexcept ValueError:\n print('Invalid input')"}
+{"prompt": "def greet(name):\n print('Hello, ' + name + '!')", "completion": "\n\ngreet('John')"}
+{"prompt": "class Rectangle:\n def init(self, length, width):", "completion": " self.length = length\n self.width = width"}
+{"prompt": "import math\n\n# Calculate square root", "completion": "result = math.sqrt(25)"}
+{"prompt": "def power(base, exponent):\n result = 1\n for _ in range(exponent):", "completion": " result *= base\n return result"}
+{"prompt": "def is_palindrome(string):\n reversed_string = string[::-1]", "completion": " return string.lower() == reversed_string.lower()"}
+{"prompt": "import numpy as np\n\n# Create an array of zeros", "completion": "arr = np.zeros((3, 3))"}
+{"prompt": "def print_elements(lst):\n for element in lst:", "completion": " print(element)"}
+{"prompt": "def convert_to_celsius(fahrenheit):\n return (fahrenheit - 32) * 5 / 9", "completion": "\n\ncelsius_temp = convert_to_celsius(75)"}
+{"prompt": "class BankAccount:\n def init(self, account_number):", "completion": " self.account_number = account_number\n self.balance = 0"}
+{"prompt": "import random\n\n# Generate a random number between 1 and 10", "completion": "random_number = random.randint(1, 10)"}
+{"prompt": "def print_pattern(n):\n for i in range(n):", "completion": " print('*' * (i+1))"}
+{"prompt": "def calculate_average(numbers):\n total = sum(numbers)", "completion": " return total / len(numbers)"}
+{"prompt": "import datetime\n\n# Get current date and time", "completion": "current_datetime = datetime.datetime.now()"}
+{"prompt": "def reverse_string(string):\n return string[::-1]", "completion": "\n\nreversed_str = reverse_string('Hello')"}
+{"prompt": "if condition:", "completion": " # Code to execute if condition is True"}
+{"prompt": "import numpy as np\n\n# Create an array", "completion": "arr = np.array([1, 2, 3])"}
+{"prompt": "def print_even_numbers(n):\n for i in range(n):", "completion": " if i % 2 == 0:\n print(i)"}
+{"prompt": "class Student:\n def init(self, name, age):", "completion": " self.name = name\n self.age = age"}
+{"prompt": "import os\n\n# Get current working directory", "completion": "cwd = os.getcwd()"}
+{"prompt": "def multiply(a, b):\n return a * b", "completion": "\n\nresult = multiply(5, 3)"}
+{"prompt": "def is_prime(n):\n if n <= 1:", "completion": " return False\n for i in range(2, int(n**0.5) + 1):"}
+{"prompt": "import random\n\n# Generate a random float between 0 and 1", "completion": "random_number = random.random()"}
+{"prompt": "def print_pattern(n):\n for i in range(1, n+1):", "completion": " print('*' * i)"}
+{"prompt": "def calculate_average(numbers):\n total = sum(numbers)", "completion": " return total / len(numbers)"}
+{"prompt": "import datetime\n\n# Get current date", "completion": "current_date = datetime.date.today()"}
+{"prompt": "def reverse_list(lst):\n return lst[::-1]", "completion": "\n\nreversed_lst = reverse_list([1, 2, 3])"}
+{"prompt": "def is_even(n):\n if n % 2 == 0:", "completion": " return True\n return False"}
+{"prompt": "import json\n\n# Convert Python dictionary to JSON", "completion": "data = {'name': 'John', 'age': 30}\njson_data = json.dumps(data)"}
+{"prompt": "def print_odd_numbers(n):\n for i in range(1, n+1):", "completion": " if i % 2 != 0:\n print(i)"}
+{"prompt": "def find_max(lst):\n max_val = lst[0]\n for num in lst:", "completion": " if num > max_val:\n max_val = num\n return max_val"}
+{"prompt": "import os\n\n# List files in a directory", "completion": "files = os.listdir('/path/to/directory')"}
+{"prompt": "def is_vowel(letter):\n vowels = ['a', 'e', 'i', 'o', 'u']", "completion": " return letter.lower() in vowels"}
+{"prompt": "import csv\n\n# Write data to CSV file", "completion": "data = [['John', 25], ['Amy', 30]]\nwith open('data.csv', 'w', newline='') as file:\n writer = csv.writer(file)\n writer.writerows(data)"}
+{"prompt": "def count_words(string):\n words = string.split()", "completion": " return len(words)"}
+{"prompt": "import random\n\n# Shuffle a list", "completion": "lst = [1, 2, 3, 4, 5]\nrandom.shuffle(lst)"}
+{"prompt": "def print_fibonacci_sequence(n):\n sequence = [0, 1]", "completion": " while len(sequence) < n:\n next_num = sequence[-1] + sequence[-2]\n sequence.append(next_num)\n print(sequence)"}
+{"prompt": "import os\n\n# Check if a file exists", "completion": "file_exists = os.path.exists('/path/to/file')"}
+{"prompt": "def find_min(lst):\n min_val = lst[0]\n for num in lst:", "completion": " if num < min_val:\n min_val = num\n return min_val"}
+{"prompt": "def add_numbers(a, b):\n return a + b", "completion": "\n\nresult = add_numbers(10, 20)"}
+{"prompt": "import numpy as np\n\n# Create a 2D array", "completion": "arr = np.array([[1, 2, 3], [4, 5, 6]])"}
+{"prompt": "def print_multiplication_table(n):\n for i in range(1, 11):", "completion": " print(n, 'x', i, '=', n*i)"}
+{"prompt": "class Car:\n def init(self, make, model):", "completion": " self.make = make\n self.model = model"}
+{"prompt": "def is_prime(n):\n if n <= 1:", "completion": " return False\n for i in range(2, int(n**0.5) + 1):"}
+{"prompt": "import random\n\n# Generate a random integer between 1 and 10", "completion": "random_number = random.randint(1, 10)"}
+{"prompt": "def print_pattern(n):\n for i in range(n, 0, -1):", "completion": " print('*' * i)"}
+{"prompt": "def calculate_product(numbers):\n product = 1\n for num in numbers:", "completion": " product *= num\n return product"}
+{"prompt": "import datetime\n\n# Get current time", "completion": "current_time = datetime.datetime.now().time()"}
+{"prompt": "def remove_duplicates(lst):\n return list(set(lst))", "completion": "\n\nunique_lst = remove_duplicates([1, 2, 2, 3, 3, 4])"}
+{"prompt": "def is_palindrome(word):\n reversed_word = word[::-1]", "completion": " return word.lower() == reversed_word.lower()"}
+{"prompt": "import os\n\n# Rename a file", "completion": "os.rename('old_file.txt', 'new_file.txt')"}
+{"prompt": "def find_average(lst):\n total = sum(lst)\n average = total / len(lst)", "completion": " return average"}
+{"prompt": "def print_odd_numbers(n):\n for i in range(1, n+1):", "completion": " if i % 2 != 0:\n print(i)"}
+{"prompt": "def calculate_factorial(n):\n factorial = 1\n for i in range(1, n+1):", "completion": " factorial *= i\n return factorial"}
+{"prompt": "def print_multiplication_table(n):\n for i in range(1, 11):", "completion": " print(n, 'x', i, '=', n*i)"}
+{"prompt": "class Book:\n def init(self, title, author):", "completion": " self.title = title\n self.author = author"}
+{"prompt": "import math\n\n# Calculate the factorial of a number", "completion": "factorial = math.factorial(5)"}
+{"prompt": "def count_vowels(string):\n vowels = 'aeiou'", "completion": " count = 0\n for char in string:\n if char.lower() in vowels:\n count += 1\n return count"}
+{"prompt": "import os\n\n# Delete a file", "completion": "os.remove('file.txt')"}
+{"prompt": "def find_median(lst):\n sorted_lst = sorted(lst)", "completion": " n = len(sorted_lst)\n if n % 2 == 0:\n median = (sorted_lst[n//2-1] + sorted_lst[n//2]) / 2\n else:\n median = sorted_lst[n//2]\n return median"}
+{"prompt": "def print_reverse_pattern(n):\n for i in range(n, 0, -1):", "completion": " print('*' * i)"}
+{"prompt": "def calculate_power(base, exponent):\n result = base ** exponent", "completion": " return result"}
+{"prompt": "import numpy as np\n\n# Reshape a 1D array into a 2D array", "completion": "arr = np.array([1, 2, 3, 4, 5, 6])\nreshaped_arr = arr.reshape(2, 3)"}
+{"prompt": "def print_fibonacci_sequence(n):\n sequence = [0, 1]", "completion": " while len(sequence) < n:\n next_num = sequence[-1] + sequence[-2]\n sequence.append(next_num)\n print(sequence)"}
+{"prompt": "import os\n\n# Check if a directory exists", "completion": "dir_exists = os.path.isdir('/path/to/directory')"}
+{"prompt": "def find_max(lst):\n max_val = lst[0]\n for num in lst:", "completion": " if num > max_val:\n max_val = num\n return max_val"}
+{"prompt": "def add_numbers(a, b):\n return a + b", "completion": "\n\nresult = add_numbers(10, 20)"}
+{"prompt": "import numpy as np\n\n# Create a 2D array", "completion": "arr = np.array([[1, 2, 3], [4, 5, 6]])"}
+{"prompt": "def print_odd_numbers(n):\n for i in range(1, n+1):", "completion": " if i % 2 != 0:\n print(i)"}
+{"prompt": "def calculate_average(numbers):\n total = sum(numbers)", "completion": " return total / len(numbers)"}
+{"prompt": "import datetime\n\n# Get current date", "completion": "current_date = datetime.date.today()"}
+{"prompt": "def reverse_list(lst):\n return lst[::-1]", "completion": "\n\nreversed_lst = reverse_list([1, 2, 3])"}
+{"prompt": "import json\n\n# Convert Python dictionary to JSON", "completion": "data = {'name': 'John', 'age': 30}\njson_data = json.dumps(data)"}
+{"prompt": "def print_even_numbers(n):\n for i in range(n):", "completion": " if i % 2 == 0:\n print(i)"}
+{"prompt": "class Rectangle:\n def init(self, length, width):", "completion": " self.length = length\n self.width = width"}
+{"prompt": "import math\n\n# Calculate square root", "completion": "result = math.sqrt(25)"}
+{"prompt": "def factorial(n):\n if n == 0:", "completion": " return 1\n else:\n return n * factorial(n-1)"}
+{"prompt": "try:\n num = int(input('Enter a number: '))", "completion": " print('Square:', num ** 2)\nexcept ValueError:\n print('Invalid input')"}
+{"prompt": "def greet(name):\n print('Hello, ' + name + '!')", "completion": "\n\ngreet('John')"}
+{"prompt": "class Circle:", "completion": " def init(self, radius): self.radius = radius"}
+{"prompt": "import pandas as pd\n\n# Read CSV file", "completion": "data = pd.read_csv('data.csv')"}
+{"prompt": "def calculate_sum(a, b):", "completion": " return a + b"}
+{"prompt": "for i in range(5):", "completion": " print(i)"}
+{"prompt": "class Triangle:\n def init(self, base, height):", "completion": " self.base = base\n self.height = height"}
+{"prompt": "import os\n\n# Get current working directory", "completion": "cwd = os.getcwd()"}
+{"prompt": "def multiply(a, b):\n return a * b", "completion": "\n\nresult = multiply(5, 3)"}
+{"prompt": "def is_prime(n):\n if n <= 1:", "completion": " return False\n for i in range(2, int(n**0.5) + 1):"}
+{"prompt": "import random\n\n# Generate a random float between 0 and 1", "completion": "random_number = random.random()"}
+{"prompt": "def print_pattern(n):\n for i in range(1, n+1):", "completion": " print('*' * i)"}
+{"prompt": "def calculate_average(numbers):\n total = sum(numbers)", "completion": " return total / len(numbers)"}
+{"prompt": "import datetime\n\n# Get current date", "completion": "current_date = datetime.date.today()"}
+{"prompt": "def reverse_list(lst):\n return lst[::-1]", "completion": "\n\nreversed_lst = reverse_list([1, 2, 3])"}
